@@ -9,8 +9,19 @@
 * `npm run task` - 위 두 개 트랜스파일 스크립트 실행  
 * `npm run all` - bundler, task 스크립트 실행  
 
-dist directory의 html을 실행해서 확인해 볼 것...  
+dist directory의 html을 실행해서 확인해 볼 것...(사실 gulp-babel은 할 필요가 없는데 혹시나 gulp-babel의 기본 설정값이 다를까 궁금해서 돌려봄.)  
 parcel의 경우에는 output file name을 지정하지 못해서 어쩔 수 없이 default 값인 index.js로 파일을 떨굼.
+
+직접 확인하기 귀찮은 사람들은 아래 링크를 통해서 콘솔창에 어떤 오류들이 뜨는지 각각의 브라우저 버전을 바꿔가면서 테스트 해보면 된다.  
+* [롤업으로 번들링만 하고, 바벨로 트랜스파일은 하지 않은 파일](https://blog.perfectacle.com/es2015-module/rollup.html)  
+* [롤업으로 번들링만 하고, 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/babel/rollup.html)  
+* [롤업으로 번들링만 하고, 걸프 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/gulp-babel/rollup.html)  
+* [웹팩으로 번들링만 하고, 바벨로 트랜스파일은 하지 않은 파일](https://blog.perfectacle.com/es2015-module/webpack.html)  
+* [웹팩으로 번들링만 하고, 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/babel/webpack.html)  
+* [웹팩으로 번들링만 하고, 걸프 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/gulp-babel/webpack.html)
+* [parcel로 번들링만 하고, 바벨로 트랜스파일은 하지 않은 파일](https://blog.perfectacle.com/es2015-module/parcel.html)  
+* [parcel로 번들링만 하고, 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/babel/parcel.html)  
+* [parcel로 번들링만 하고, 걸프 바벨로 트랜스파일 한 파일](https://blog.perfectacle.com/es2015-module/gulp-babel/parcel.html)
 
 ## Result
 parcel은 require 함수를 var 키워드도 안 쓰고 해당 변수를 만들고 있음...  
