@@ -1,0 +1,7 @@
+{
+  "presets": ["env"],
+  "ignore": [
+    "./dist/babel/*.js",
+    "./dist/gulp-babel/*.js"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "import-export-webpack-vs-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "rollup": "rollup -c",
+    "parcel": "parcel build ./src/index.js --no-minify",
+    "bundle": "npm run webpack && npm run parcel && npm run rollup",
+    "babel": "babel ./dist -d ./dist/babel",
+    "gulp": "gulp",
+    "task": "npm run babel && npm run gulp",
+    "all": "npm run bundle && npm run task"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "parcel-bundler": "^1.2.0",
+    "rollup": "^0.52.1",
+    "webpack": "^3.10.0"
+  }
+}
