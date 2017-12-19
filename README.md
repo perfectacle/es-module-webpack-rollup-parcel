@@ -33,7 +33,7 @@ ES Module을 제외하고 ES6 문법을 안 쓰면 IE8에서도 잘 먹힌다.
 
 parcel은 babel로 트랜스파일 하지 않아도 알아서 ES5 코드로 트랜스파일 된다.  
 
-## TEST
+##TEST
 마크다운 테스트
 당당숭구리당당
 https://blog.perfectacle.com/es2015-module/gulp-babel/parcel.html
