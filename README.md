@@ -38,5 +38,5 @@ parcel은 babel로 트랜스파일 하지 않아도 알아서 ES5 코드로 트�
 당당숭구리당당
 https://blog.perfectacle.com/es2015-module/gulp-babel/parcel.html
 
-   var a = 1;
-   console.log(a);
+    var a = 1;
+    console.log(a);
